@@ -1,19 +1,40 @@
 const Advertisement = () => {
     return (
-        <section className="flex items-center flex-col mt-4">
-            
-            <h2>Vire um Membro Pro</h2>
+        <section className="flex items-center flex-col mt-12">
+
+            <h2 className="">Vire um Membro Pro</h2>
 
             <div className="flex justify-around w-full px-9 mt-6">
-                <div className="bg-slate-300 w-1/5 h-32 rounded-xl p-2">
-                    elemento1
+
+                <div className="bg-slate-300 w-1/5 h-32 rounded-xl p-2 flex flex-col items-center cursor-pointer">
+
+                    <span className="text-center font-semibold">Elemento 1</span>
+                    <p className="text-left break-all overflow-scroll text-xs mt-1">Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Non doloribus odit eligendi fugiat.
+                    </p>
                 </div>
-                <div className="bg-slate-300 w-1/5 h-32 rounded-xl p-2">
-                    elemento1
+
+                <div className="bg-slate-300 w-1/5 h-32 rounded-xl p-2 flex flex-col items-center cursor-pointer">
+
+                    <span className="text-center font-semibold">Elemento 1</span>
+                    <p className="text-left break-all overflow-scroll text-xs mt-1">Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Non doloribus odit eligendi fugiat.
+                    </p>
                 </div>
-                <div className="bg-slate-300 w-1/5 h-32 rounded-xl p-2">
-                    elemento1
+
+                <div className="bg-orange-400 w-1/5 h-32 rounded-xl p-2 flex flex-col items-center cursor-pointer">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-white">
+                        <path d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 01-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004zM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 01-.921.42z" />
+                        <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v.816a3.836 3.836 0 00-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 01-.921-.421l-.879-.66a.75.75 0 00-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 001.5 0v-.81a4.124 4.124 0 001.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 00-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 00.933-1.175l-.415-.33a3.836 3.836 0 00-1.719-.755V6z" clipRule="evenodd" />
+                    </svg>
+
+                    <span className="text-center text-white font-semibold">Descontos Especiais</span>
+                    <p className="text-left text-white break-all overflow-scroll text-xs mt-1">Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Non doloribus odit eligendi fugiat.
+                    </p>
                 </div>
+
             </div>
         </section>
     )
