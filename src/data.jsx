@@ -35,4 +35,13 @@ export default [
         imageDesc: "cup of coffee with an coffee filter",
         recipe: "Heat the water to 200°F, if you have a variable temperature water kettle. Place the pour over device (like a v60 or Kalita Wave) on top of the mug or carafe. Place a paper filter in it, then pour enough water over the filter, to wet it, about an ounce or 28 grams.Continue to add 50 to 75 grams of water at a time, starting at the center, spiraling out to the edge and working back into the center with your pour."
     },
+    {
+        id: '5',
+        category: 'dinner',
+        name: "Shrimp and Mushroom",
+        desc: "You’ll want to keep this quick shrimp and mushroom stir fry recipe in your back pocket for easy, wholesome dinners. It comes together in just a few minutes and is a great weeknight meal.",
+        image: `https://www.simplyrecipes.com/thmb/M2oIfDCWHmAJMM22QLLtimAOQDY=/300x225/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Shrimp-Mushroom-Stir-Fry-LEAD-04-22684f35becf4185ac536b3d10ec6368.jpg`,
+        imageDesc: "plate with rice, mushroom and shrimp",
+        recipe: "Whisk together the chicken stock, garlic, soy sauce, and cornstarch in a small bowl. Set aside. In a large skillet or wok over medium heat, add olive oil and mushrooms. Cook until the mushrooms soften and turn brown in spots around the edges, about 8 minutes. Once the mushrooms are cooked to your liking, add the shrimp to the skillet. If the skillet is very dry, add a fresh drizzle of oil to it to ensure the shrimp doesn’t stick. Cook, stirring constantly, until shrimp are cooked through and no longer translucent, 2-3 minutes. "
+    },
 ]
