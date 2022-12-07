@@ -38,9 +38,9 @@ const Advertisement = () => {
 const style = {
     section: `flex items-center flex-col mt-12`,
     title: `font-semibold text-lg`,
-    mainDiv: `flex justify-around w-full px-9 mt-8`,
-    adCard: `bg-white w-1/5 h-32 rounded-xl p-2 flex flex-col items-center cursor-pointer shadow-3xl`,
-    adCardAlt: `bg-orange-400 w-1/5 h-32 rounded-xl p-2 flex flex-col items-center cursor-pointer shadow-3xl animate-pulse`,
+    mainDiv: `flex sm:flex-row sm:justify-around flex-col items-center w-full px-9 mt-8`,
+    adCard: `bg-white sm:w-1/5 sm:h-32 sm:mt-0 w-2/3 mt-3 rounded-xl p-2 flex flex-col items-center cursor-pointer shadow-3xl`,
+    adCardAlt: `bg-orange-400 sm:w-1/5 sm:h-32 w-2/3 sm:mt-0 mt-3 rounded-xl p-2 flex flex-col items-center cursor-pointer shadow-3xl animate-pulse`,
     cardTitle: `text-center font-semibold text-gray-800`,
     cardText: `text-left break-all overflow-scroll text-xs mt-1 text-gray-700 mx-2`,
     cardTitleAlt: `text-center text-white font-semibold`,
