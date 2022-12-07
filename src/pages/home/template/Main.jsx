@@ -75,7 +75,7 @@ const Main = () => {
                 </nav>
             </div>
 
-            <div className='flex flex-wrap gap-3 justify-center mt-9'>
+            <div className='flex flex-wrap gap-4 justify-center my-9'>
                 {cardsFiltered}
             </div>
             
