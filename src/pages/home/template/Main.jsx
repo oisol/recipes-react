@@ -75,10 +75,12 @@ const Main = () => {
                 </nav>
             </div>
 
-            <div className='flex flex-wrap gap-4 justify-center my-9'>
-                {cardsFiltered}
+            <div className='flex flex-center'>
+                <div className='flex flex-wrap gap-4 xl:justify-start xl:ml-20  my-9 justify-center box-border'>
+                    {cardsFiltered}
+                </div>
             </div>
-            
+        
         </main>
     )
 }

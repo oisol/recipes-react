@@ -44,4 +44,45 @@ export default [
         imageDesc: "plate with rice, mushroom and shrimp",
         recipe: "Whisk together the chicken stock, garlic, soy sauce, and cornstarch in a small bowl. Set aside. In a large skillet or wok over medium heat, add olive oil and mushrooms. Cook until the mushrooms soften and turn brown in spots around the edges, about 8 minutes. Once the mushrooms are cooked to your liking, add the shrimp to the skillet. If the skillet is very dry, add a fresh drizzle of oil to it to ensure the shrimp doesn’t stick. Cook, stirring constantly, until shrimp are cooked through and no longer translucent, 2-3 minutes. "
     },
+
+
+
+
+    {
+        id: '6',
+        category: 'dinner',
+        name: "Shrimp and Mushroom",
+        desc: "You’ll want to keep this quick shrimp and mushroom stir fry recipe in your back pocket for easy, wholesome dinners. It comes together in just a few minutes and is a great weeknight meal.",
+        image: `https://www.simplyrecipes.com/thmb/M2oIfDCWHmAJMM22QLLtimAOQDY=/300x225/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Shrimp-Mushroom-Stir-Fry-LEAD-04-22684f35becf4185ac536b3d10ec6368.jpg`,
+        imageDesc: "plate with rice, mushroom and shrimp",
+        recipe: "Whisk together the chicken stock, garlic, soy sauce, and cornstarch in a small bowl. Set aside. In a large skillet or wok over medium heat, add olive oil and mushrooms. Cook until the mushrooms soften and turn brown in spots around the edges, about 8 minutes. Once the mushrooms are cooked to your liking, add the shrimp to the skillet. If the skillet is very dry, add a fresh drizzle of oil to it to ensure the shrimp doesn’t stick. Cook, stirring constantly, until shrimp are cooked through and no longer translucent, 2-3 minutes. "
+    },
+    {
+        id: '7',
+        category: 'dinner',
+        name: "Shrimp and Mushroom",
+        desc: "You’ll want to keep this quick shrimp and mushroom stir fry recipe in your back pocket for easy, wholesome dinners. It comes together in just a few minutes and is a great weeknight meal.",
+        image: `https://www.simplyrecipes.com/thmb/M2oIfDCWHmAJMM22QLLtimAOQDY=/300x225/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Shrimp-Mushroom-Stir-Fry-LEAD-04-22684f35becf4185ac536b3d10ec6368.jpg`,
+        imageDesc: "plate with rice, mushroom and shrimp",
+        recipe: "Whisk together the chicken stock, garlic, soy sauce, and cornstarch in a small bowl. Set aside. In a large skillet or wok over medium heat, add olive oil and mushrooms. Cook until the mushrooms soften and turn brown in spots around the edges, about 8 minutes. Once the mushrooms are cooked to your liking, add the shrimp to the skillet. If the skillet is very dry, add a fresh drizzle of oil to it to ensure the shrimp doesn’t stick. Cook, stirring constantly, until shrimp are cooked through and no longer translucent, 2-3 minutes. "
+    },
+    {
+        id: '8',
+        category: 'dinner',
+        name: "Shrimp and Mushroom",
+        desc: "You’ll want to keep this quick shrimp and mushroom stir fry recipe in your back pocket for easy, wholesome dinners. It comes together in just a few minutes and is a great weeknight meal.",
+        image: `https://www.simplyrecipes.com/thmb/M2oIfDCWHmAJMM22QLLtimAOQDY=/300x225/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Shrimp-Mushroom-Stir-Fry-LEAD-04-22684f35becf4185ac536b3d10ec6368.jpg`,
+        imageDesc: "plate with rice, mushroom and shrimp",
+        recipe: "Whisk together the chicken stock, garlic, soy sauce, and cornstarch in a small bowl. Set aside. In a large skillet or wok over medium heat, add olive oil and mushrooms. Cook until the mushrooms soften and turn brown in spots around the edges, about 8 minutes. Once the mushrooms are cooked to your liking, add the shrimp to the skillet. If the skillet is very dry, add a fresh drizzle of oil to it to ensure the shrimp doesn’t stick. Cook, stirring constantly, until shrimp are cooked through and no longer translucent, 2-3 minutes. "
+    },
+    {
+        id: '9',
+        category: 'dinner',
+        name: "Shrimp and Mushroom",
+        desc: "You’ll want to keep this quick shrimp and mushroom stir fry recipe in your back pocket for easy, wholesome dinners. It comes together in just a few minutes and is a great weeknight meal.",
+        image: `https://www.simplyrecipes.com/thmb/M2oIfDCWHmAJMM22QLLtimAOQDY=/300x225/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Shrimp-Mushroom-Stir-Fry-LEAD-04-22684f35becf4185ac536b3d10ec6368.jpg`,
+        imageDesc: "plate with rice, mushroom and shrimp",
+        recipe: "Whisk together the chicken stock, garlic, soy sauce, and cornstarch in a small bowl. Set aside. In a large skillet or wok over medium heat, add olive oil and mushrooms. Cook until the mushrooms soften and turn brown in spots around the edges, about 8 minutes. Once the mushrooms are cooked to your liking, add the shrimp to the skillet. If the skillet is very dry, add a fresh drizzle of oil to it to ensure the shrimp doesn’t stick. Cook, stirring constantly, until shrimp are cooked through and no longer translucent, 2-3 minutes. "
+    },
+
 ]
