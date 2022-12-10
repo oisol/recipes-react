@@ -17,7 +17,8 @@ const Main = () => {
                     image={values.image}
                     imageDesc={values.imageDesc}
                     name={values.name}
-                    desc={values.desc}                
+                    desc={values.desc}  
+                    recipe={values.recipe}               
                 />
             )
         }
@@ -40,15 +41,6 @@ const Main = () => {
         }
     })
 
-    // FAZER:
-    // Funçãp para pegar value.recipe e dar log do valor
-    const recipeText = data.map(value => {
-        if (Card.key == value.id ) {
-            return (
-                console.log(value.recipe)
-            )
-        }  
-    })
 
     return (
         <main className='bg-gray-50 mt-9'>
@@ -86,8 +78,8 @@ const Main = () => {
                 </nav>
             </div>
 
-            <div className='flex flex-center'>
-                <div className='flex flex-wrap gap-4 xl:justify-start xl:ml-20 sm:ml-20  my-9 justify-center box-border'>
+            <div className='flex flex-center items-center'>
+                <div className='flex flex-wrap gap-4 xl:justify-start xl:ml-20 my-9 justify-center items-center '>
                     {cardsFiltered}
                 </div>
             </div>
