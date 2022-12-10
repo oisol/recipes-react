@@ -6,10 +6,9 @@ const Main = () => {
 
     const [search, setSearch] = useState('all');
 
-    // Filtrar Cards de Acordo com a categoria
+    // Filtrar Cards de Acordo com a categoria 
     const cardsFiltered = data.map(values => {
-
-        if (values.category == search) {
+        if (values.category == search || search == "all") {
             return (
                 <Card
                     key={values.id}
@@ -21,23 +20,6 @@ const Main = () => {
                     recipe={values.recipe}               
                 />
             )
-        }
-        
-        // Todos Selecionado
-        if (search == "all"){
-
-            return (
-                <Card
-                    key={values.id}
-                    type={values.category}
-                    image={values.image}
-                    imageDesc={values.imageDesc}
-                    name={values.name}
-                    desc={values.desc}
-                    recipe={values.recipe}               
-                />
-            )
-
         }
     })
 
