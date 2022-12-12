@@ -60,7 +60,7 @@ const Main = () => {
                 </nav>
             </div>
 
-            <div className='flex flex-center items-center'>
+            <div>
                 <div className='flex flex-wrap gap-4 xl:justify-start xl:ml-20 my-9 justify-center items-center '>
                     {cardsFiltered}
                 </div>
