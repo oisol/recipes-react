@@ -9,9 +9,11 @@ const CommentCard = (props) => {
                 </em>
             </p>
 
-            <div className="flex flex-row justify-center gap-2 mb-2 sm:px-0 px-2">
-                <img className="h-16 w-16 rounded-full cursor-pointer object-cover" src={props.profile} alt={props.profileDesc} />
-                <p className="mt-1 font-semibold text-gray-500">{props.name}</p>
+            <div className="flex flex-row sm:justify-between gap-2 mb-2 sm:px-3 px-2">
+                <div className="flex">
+                    <img className="h-16 w-16 rounded-full cursor-pointer object-cover" src={props.profile} alt={props.profileDesc} />
+                    <p className="mt-1 ml-3 font-semibold text-gray-500">{props.name}</p>
+                </div>
 
                 <div className="flex flex-row-reverse gap-5 items-center sm:ml-6">
 
