@@ -1,7 +1,10 @@
+import { useState } from 'react'
 import CommentCard from './CommentCard'
 import commentsData from './testimonalData'
 
 const Testimonal = () => {
+
+    const [count, setCount] = useState(0)
 
     const commentsCard = commentsData.map(values => {
         return (
@@ -21,7 +24,7 @@ const Testimonal = () => {
             <p className='text-gray-900 font-bold text-xl'>Quadro de avaliações</p>
 
             <div>
-                {commentsCard[0]}
+                {commentsCard[count]}
             </div>
         </div>
     )
