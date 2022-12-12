@@ -25,12 +25,12 @@ const Main = () => {
 
 
     return (
-        <main className='bg-gray-50 mt-9'>
+        <main className='bg-gray-50 mt-9 sm:pb-3 pb-1'>
 
             <div className='pt-4 flex flex-col justify-center items-center gap-1'>
 
-                <h4 className='text-orange-400 font-semibold text-base'>Receitas</h4>
-                <h2 className='text-gray-800 font-bold text-xl'>Explore Nossas Receitas</h2>
+                <h2 className='text-orange-400 font-semibold text-base'>Receitas</h2>
+                <p className='text-gray-800 font-bold text-xl'>Explore Nossas Receitas</p>
 
                 <nav className='flex sm:flex-row sm:gap-3 sm:mt-4 gap-2 flex-wrap'>
                     <label>
@@ -60,12 +60,10 @@ const Main = () => {
                 </nav>
             </div>
 
-            <div>
-                <div className='flex flex-wrap gap-4 xl:justify-start xl:ml-20 my-9 justify-center items-center '>
-                    {cardsFiltered}
-                </div>
+            <div className='flex flex-wrap gap-4 xl:justify-start xl:ml-20 my-9 justify-center items-center '>
+                {cardsFiltered}
             </div>
-        
+            
         </main>
     )
 }

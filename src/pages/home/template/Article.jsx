@@ -1,10 +1,12 @@
+import Zoom from 'react-medium-image-zoom'
 import bg_img from '../../../assets/imgs/food-frame.png'
 
 const Article = () => {
     return (
         <article className={style.article}>
-
-            <img className={style.image} src={bg_img} alt="Prato com comida mexicana e tortillas"/>
+            <Zoom>
+                <img className={style.image} src={bg_img} alt="Prato com comida mexicana e tortillas"/>
+            </Zoom>
 
             <div className={style.mainDiv}>
                 <h2 className={style.subtitle}>Sobre Nós</h2>
@@ -23,7 +25,7 @@ const Article = () => {
 
 const style = {
     article: `mt-3 flex sm:justify-center sm:flex-row sm:items-start items-center flex-col`,
-    image: `w-2/4 cursor-pointer max-w-md sm:rounded-md`,
+    image: `sm:w-full w-64 cursor-pointer max-w-md sm:rounded-md`,
     mainDiv: `sm:w-2/5 flex flex-col sm:items-start items-center p-3`,
     subtitle: `text-left font-semibold text-sm text-orange-400`,
     title: `text-left font-semibold mt-2 text-xl`,
