@@ -1,16 +1,23 @@
 export default [
     {
         id: '1',
-        name: "French Omelette",
-        profile: `https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fthechairshot.com%2Fwp-content%2Fuploads%2F2019%2F12%2FUmaga-WWE-1000x600.png&f=1&nofb=1&ipt=1896ab9a5c640d8a89265e69dba2ddb09f75f67e26c180ae6f42b063c886a238&ipo=images`,
-        profileDesc: "asd",
-        comment: "balbal lblablalbla bla blablabla bla blabla bla blablablablabla bla bla bla "    
+        name: "Heloísa Castro",
+        profile: `https://media.istockphoto.com/id/1311084168/photo/overjoyed-pretty-asian-woman-look-at-camera-with-sincere-laughter.jpg?b=1&s=170667a&w=0&k=20&c=XPuGhP9YyCWquTGT-tUFk6TwI-HZfOr1jNkehKQ17g0=`,
+        profileDesc: "Foto de pessoa",
+        comment: "Etiam tellus odio, volutpat et nisi eget, accumsan tempor justo."    
     },
     {
         id: '2',
-        name: "Apple Coffee Cake",
-        profile: ``,
-        profileDesc: "",
-        comment: "blablabla bla blabla bla"
+        name: "Davi Miguel",
+        profile: `https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg`,
+        profileDesc: "Foto de pessoa",
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        id: '3',
+        name: "Luiz Henrique",
+        profile: `https://media.istockphoto.com/photos/headshot-portrait-of-smiling-ethnic-businessman-in-office-picture-id1300512215?b=1&k=20&m=1300512215&s=612x612&w=0&h=pP5ksvhx-gIHFVAyZTn31H_oJuhB0nX4HnLLUN2kVAg=`,
+        profileDesc: "Foto de pessoa",
+        comment: "Nunc laoreet quam vel sem pharetra, eu hendrerit nisi interdum."
     }
 ]

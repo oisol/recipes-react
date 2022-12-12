@@ -4,8 +4,32 @@ import commentsData from './testimonalData'
 
 const Testimonal = () => {
 
-    const [count, setCount] = useState(0)
+    let [count, setCount] = useState(0)
 
+    // Função para próximo comentario
+    const nextComment = () => {
+        if ((commentsData.length - 1)> count) {
+            return (
+                setCount((count += 1)) & console.log(commentsData.length)
+            )
+        } else {
+            return
+        }
+        
+    }
+    
+    // Função para comentario anterior
+    const previousComment = () => {
+        if ((count > 0)) {
+            return (
+                setCount((count -= 1))
+            )
+        } else {
+            return
+        }
+    }
+
+    // Montar card de comentarios com map e props
     const commentsCard = commentsData.map(values => {
         return (
             <CommentCard
@@ -13,7 +37,9 @@ const Testimonal = () => {
                 profile={values.profile}
                 profileDesc={values.profileDesc}
                 name={values.name}
-                comment={values.comment}               
+                comment={values.comment}
+                nextEvent={nextComment}   
+                previousEvent={previousComment}            
             />
         )
     })
