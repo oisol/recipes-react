@@ -1,6 +1,6 @@
 const CommentCard = (props) => {
     return (
-        <div className="flex flex-col gap-5 justify-end shadow-3xl sm:w-96 w-fit sm:h-auto h-40 sm:mb-4 sm:mt-8 rounded-2xl">
+        <div className="flex flex-col gap-5 justify-end shadow-3xl sm:w-96 w-fit sm:h-auto h-40 mb-4 mt-8 rounded-2xl">
             <p className="sm:px-7 px-3 h-auto sm:w-96 w-72 pt-3 overflow-scroll text-left font-semibold text-gray-600">
                 <em>
                     <span className="text-orange-400 font-bold text-2xl">“</span>
