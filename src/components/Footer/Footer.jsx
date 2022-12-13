@@ -13,47 +13,52 @@ const Footer = () => {
                 </form>
 
             </div>
+
             {/* LINKS RÁPIDOS */}
-            <div className="bg-red-500 lg:w-2/3 w-full lg:h-44 h-48 flex flex-row justify-around">
+            <div className="bg-red-500 lg:w-2/3 w-full lg:h-44 h-48 flex flex-row justify-around flex-wrap">
                 {/* QuickLinks */}
-                <ul>
-                    <li>
-                        <a href="">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            Link2
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            Link3
-                        </a>
-                    </li>
-                </ul>
+                <div>
+                    <p>Links Rápidos</p>
+                    <ul className="pl-4">
+                        <li>
+                            <a href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Link2
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Link3
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 {/* About Us */}
-                <section>
+                <section className="flex flex-col items-center w-1/3 break-all">
                     <h3>Sobre Nós</h3>
-                    <p>asdasdasdasdasdasdasdasd</p>
-                    <p>asdasdasdasdasdasdasdasd</p>
-                    <p>asdasdasdasdasdasdasdasd</p>
+                    <p className="overflow-scroll h-36">Sed non dolor mauris. Sed mi est, ornare ac felis a, volutpat suscipit mi. 
+                        Integer in venenatis dolor. Donec sed nibh velit. Maecenas odio sapien, posuere gravida magna vel, porta.
+                    </p>
+
                 </section>
                 {/* Social Media */}
                 <div>
                     <li>
-                        <a href="">
+                        <a href="#">
                             Instagram Icon
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             Twitter Icon
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             Facebook Icon
                         </a>
                     </li>
