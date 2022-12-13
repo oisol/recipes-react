@@ -1,7 +1,8 @@
 const Footer = () => {
     return (
-        <footer className="flex sm:flex-row flex-col sm:mt-5 bg-slate-500 h-80">
-            <div className="bg-blue-500 sm:w-96 sm:h-44">
+        <footer className="flex md:flex-row flex-col sm:mt-5 bg-slate-500 sm:h-80 h-auto">
+            {/* NEWLETTER */}
+            <div className="bg-blue-500 md:w-1/3 w-full md:h-44 h-36">
                 <p>Pronto pra cozinhar?</p>
                 <h3>Assine nossa newsletter semanal!</h3>
                 <div>
@@ -11,7 +12,8 @@ const Footer = () => {
                     </form>
                 </div>
             </div>
-            <div className="bg-red-500 sm:w-full sm:h-44 flex flex-row justify-around">
+            {/* LINKS RÁPIDOS */}
+            <div className="bg-red-500 md:w-2/3 w-full md:h-44 h-48 flex flex-row justify-around">
                 <ul>
                     <li>a</li>
                     <li>1</li>
@@ -25,6 +27,7 @@ const Footer = () => {
                     <li>3</li>
                 </ul>
             </div>
+            {/* SOCIAL MEDIA */}
         </footer>
     )
 }
