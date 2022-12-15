@@ -1,3 +1,8 @@
+// Icons
+import facebook from '../../assets/imgs/facebook.png'
+import instagram from '../../assets/imgs/instagram.png'
+import linkedin from '../../assets/imgs/linkedin.png'
+
 const Footer = () => {
     return (
         <footer className="flex lg:flex-row flex-col sm:mt-12 h-auto">
@@ -48,21 +53,17 @@ const Footer = () => {
                 </section>
 
                 {/* Social Media */}
-                <div>
+                <div className='flex flex-col items-center'>
                     <p className="text-base text-gray-900 sm:font-medium font-semibold ">Redes Sociais</p>
                     <div>
                         <a href="#">
-                            Instagram Icon
+                            <img className='w-9 mt-1' src={linkedin} alt="icone do linkedin" />
                         </a>
-                    </div>
-                    <div>
                         <a href="#">
-                            Twitter Icon
+                            <img className='w-9 mt-1' src={facebook} alt="icone do facebook" />
                         </a>
-                    </div>
-                    <div>
                         <a href="#">
-                            Facebook Icon
+                            <img className='w-9 mt-1' src={instagram} alt="icone do instagram" />
                         </a>
                     </div>
                 </div>
