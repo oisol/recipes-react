@@ -4,6 +4,12 @@ import instagram from '../../assets/imgs/instagram.png'
 import linkedin from '../../assets/imgs/linkedin.png'
 
 const Footer = () => {
+
+    // Impedir que o form dê submit
+    const handleSubmit  = event => {
+        event.preventDefault();
+    }
+
     return (
         <footer className="flex lg:flex-row flex-col sm:mt-12 h-auto">
             {/* NEWLETTER */}
@@ -11,7 +17,7 @@ const Footer = () => {
                 <p className="text-2xl font-semibold ">Pronto para cozinhar?</p>
                 <h3 className="text-base font-medium">Assine nossa newsletter semanal!</h3>
 
-                <form action="#" className="flex justify-start flex-wrap pt-4">
+                <form action="#" method='#' onSubmit={handleSubmit} className="flex justify-start flex-wrap pt-4">
                     <input className="h-8 w-60 rounded-l-lg pl-3 focus:bg-gray-200 border-2 border-gray-200 outline-none" type="email" name="email" id="newsletter_input" placeholder="Digite seu Email"/>
                     <button className="bg-orange-400 hover:bg-white rounded-r-lg w-20 text-white hover:text-orange-400 hover:border-2 hover:border-orange-400
                     font-semibold" type="submit">Assinar</button>
@@ -32,12 +38,12 @@ const Footer = () => {
                         </li>
                         <li>
                             <a className="hover:text-orange-400 font-medium" href="#">
-                                Link2
+                                Contato
                             </a>
                         </li>
                         <li>
                             <a className="hover:text-orange-400 font-medium" href="#">
-                                Link3
+                                Receitas
                             </a>
                         </li>
                     </ul>
