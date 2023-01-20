@@ -52,7 +52,7 @@ const Footer = () => {
                 {/* About Us */}
                 <section className="flex flex-col items-center w-1/3 break-all">
                     <p className="text-base text-gray-900 sm:font-medium font-semibold ">Sobre Nós</p>
-                    <p className="overflow-scroll h-36">Sed non dolor mauris. Sed mi est, ornare ac felis a, volutpat suscipit mi. 
+                    <p className="sm:overflow-visible overflow-y-scroll h-36">Sed non dolor mauris. Sed mi est, ornare ac felis a, volutpat suscipit mi. 
                         Integer in venenatis dolor. Donec sed nibh velit. Maecenas odio sapien, posuere gravida magna vel, porta.
                     </p>
 

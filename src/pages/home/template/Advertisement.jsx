@@ -42,9 +42,9 @@ const style = {
     adCard: `bg-white sm:w-56 sm:h-32 sm:mt-0 w-2/3 max-w-xs mt-3 rounded-xl p-2 flex flex-col items-center cursor-pointer shadow-3xl`,
     adCardAlt: `bg-orange-400 sm:w-56 sm:h-32 w-2/3 max-w-xs sm:mt-0 mt-3 rounded-xl p-2 flex flex-col items-center cursor-pointer shadow-3xl animate-pulse`,
     cardTitle: `text-center font-semibold text-gray-800`,
-    cardText: `text-left break-all overflow-scroll text-xs mt-1 text-gray-700 mx-2`,
+    cardText: `text-left break-all sm:overflow-visible overflow-y-scroll text-xs mt-1 text-gray-700 mx-2`,
     cardTitleAlt: `text-center text-white font-semibold`,
-    cardTextAlt: `text-left text-white break-all overflow-scroll text-xs mt-1 mx-2`,
+    cardTextAlt: `text-left text-white break-all sm:overflow-visible overflow-y-scroll text-xs mt-1 mx-2`,
 
     icons: {
         smiley: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-orange-400">

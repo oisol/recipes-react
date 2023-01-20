@@ -34,7 +34,7 @@ const Card = (props) => {
             </Zoom>
 
             <div className="p-2">
-                <h3 className='max-h-5 overflow-x-scroll'>{props.name}</h3>
+                <h3 className='max-h-5 sm:overflow-visible overflow-y-scroll'>{props.name}</h3>
                 <p className="sm:block hidden h-3 overflow-hidden text-xs">{props.desc}</p>
                 <button className='text-sm text-gray-700 hover:text-blue-500' onClick={() => readMoreHandler()} >Leia mais</button>
             </div>

@@ -29,7 +29,7 @@ const style = {
     mainDiv: `sm:w-2/5 flex flex-col sm:items-start items-center p-3`,
     subtitle: `text-left font-semibold text-sm text-orange-400`,
     title: `text-left font-semibold mt-2 text-xl`,
-    text: `text-left w-11/12 max-h-52 overflow-scroll mt-4 text-xs`,
+    text: `text-left w-11/12 max-h-52 sm:overflow-visible overflow-y-scroll mt-4 text-xs`,
     buttom: `font-bold text-sm bg-orange-400 text-white rounded-full px-2 py-1 mt-6 hover:translate-y-1 delay-50 hover:scale-105`
 }
 
