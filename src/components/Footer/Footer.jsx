@@ -13,7 +13,7 @@ const Footer = () => {
     return (
         <footer className="flex lg:flex-row flex-col sm:mt-12 h-auto">
             {/* NEWLETTER */}
-            <div className="bg-white lg:w-1/3 w-full lg:h-44 h-36 pl-5 pb-6 flex flex-col lg:justify-end lg:items-start items-center justify-center">
+            <div className="bg-white lg:w-1/3 w-full lg:h-44 h-36 pl-5 pb-6 flex flex-col lg:justify-start lg:items-start items-center justify-center">
                 <p className="text-2xl font-semibold ">Pronto para cozinhar?</p>
                 <h3 className="text-base font-medium">Assine nossa newsletter semanal!</h3>
 
