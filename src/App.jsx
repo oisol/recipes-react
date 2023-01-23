@@ -1,10 +1,12 @@
-import Home from "./pages/home"
+import React from "react"
+import Router from "./routes"
 
 const App = () => {
   return (
-    <div>
-      <Home />
-    </div>
+      <div>
+        <Router />
+      </div>
+
   )
 }
 

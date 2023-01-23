@@ -12,6 +12,7 @@ const Main = () => {
             return (
                 <Card
                     key={values.id}
+                    id={values.id}
                     type={values.category}
                     image={values.image}
                     imageDesc={values.imageDesc}
@@ -25,7 +26,7 @@ const Main = () => {
 
 
     return (
-        <main className='bg-gray-50 mt-9 sm:pb-3 pb-1'>
+        <main className='bg-gray-50 mt-9 sm:pb-3 pb-1' id='recipes'>
 
             <div className='pt-4 flex flex-col justify-center items-center gap-1'>
 

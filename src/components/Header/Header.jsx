@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../../assets/imgs/cooking-logo.svg';
 
 const Header = () => {
@@ -8,10 +9,25 @@ const Header = () => {
                 <span className='pl-3 font-bold text-lg cursor-default'>Receitas Lhegais</span>
             </div>
             <nav className="flex flex-col justify-evenly sm:w-2/4 sm:flex-row sm:items-center items-end">
-                <a href="#" className={style.navs}>Home</a>
-                <a href="#" className={style.navs}>Sobre</a>
-                <a href="#" className={style.navs}>Contato</a>
-                <a href="#" className={style.navsAlt}>Receitas</a>
+                <a href="#" className={style.navs}>
+                    <Link to="/">Home</Link>
+                </a>
+                <a href="/contato" className={style.navs}>
+                    Sobre
+                </a>
+                <a href="/sobre" className={style.navs}>
+                    Contato
+                </a>
+                {
+                window.location.href === "http://127.0.0.1:5173/" 
+                ?
+                <a href="/#recipes" className={style.navsAlt}>
+                    Receitas
+                </a>
+                :
+                <>
+                </>
+                }
             </nav>
         </header>
     )
