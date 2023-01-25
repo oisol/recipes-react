@@ -1,23 +1,9 @@
+import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2'
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 
 const Card = (props) => {
-
-    // Mostrar receita em forma de popup
-    const recipeHandler = () => {
-        return (
-            Swal.fire({
-                title: `${props.name}`,
-                text: `${props.recipe}`,
-                imageUrl: `${props.image}`,
-                imageWidth: 400,
-                imageHeight: 200,
-                imageAlt: `${props.imageAlt}`,
-                confirmButtonText: 'Bon appétit!'
-              })
-        )
-    }
 
     // Mostrar descrição da receita
     const readMoreHandler = () => {
@@ -39,7 +25,7 @@ const Card = (props) => {
                 <button className='text-sm text-gray-700 hover:text-blue-500' onClick={() => readMoreHandler()} >Leia mais</button>
             </div>
             <div className='flex items-center justify-center' >
-                <button className='bg-orange-400 rounded-full w-28 h-8 text-white font-semibold text-sm' onClick={() => recipeHandler()}>Ver Receita</button>
+                <button className='bg-orange-400 rounded-full w-28 h-8 text-white font-semibold text-sm'><Link to={`/${props.id}`}>Ver Receita</Link></button>
             </div>
         </div>
     )
