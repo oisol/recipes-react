@@ -1,16 +1,18 @@
+import { Link } from 'react-router-dom';
+import data from "../../data";
+
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
-import data from "../../data";
+
 
 const Recipe = () => {
 
+    const urlId = window.location.href.split("/");
+
     const datas = data.map(values => {
-
-        const urlId = window.location.href.split("/");
-
         if (values.id === urlId[3]) {
             return (
-                <div>
+                <div key={values.id}>
                     <h4>{values.category}</h4>
                     <h1>{values.name}</h1>
                     <img src={values.image} alt={values.imageDesc} />
@@ -19,13 +21,35 @@ const Recipe = () => {
                 </div>
             )
         }
-    })
+    });
 
+    // Retornar aviso de 404 se não houver id no DB que coincida ao da URL
+    const notFound = data.map(values => {
+        if (values.id.includes(urlId[3])) {
+            return (
+                true
+            )
+        } else {
+            return (
+                false
+            )
+        }
+    });
 
     return (
+        
         <div>
             <Header />
-            {datas}
+            {
+              notFound.includes(true)
+              ?
+              datas
+              :
+              <div>
+                  <h1>404</h1>
+                  <button><Link to='/'>Voltar para início</Link></button>
+              </div>
+            }
             <Footer />
         </div>
     )

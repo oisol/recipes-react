@@ -8,7 +8,6 @@ import {
 import Home from "./pages/home";
 import Recipe from "./pages/recipe";
 
-
 function Router(props) {
     return (  
         <BrowserRouter>
