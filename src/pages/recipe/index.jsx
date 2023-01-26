@@ -13,13 +13,15 @@ const Recipe = () => {
         if (values.id === urlId[3]) {
             return (
                 <div key={values.id} className="flex flex-col items-center mt-3">
-                    <button className='font-extrabold text-orange-400 hover:text-orange-700'>
+
+                    <button className='text-base sm:text-lg font-bold sm:font-extrabold text-orange-400 hover:text-orange-700'>
                         <Link to={`/${values.category}`}>{values.category}</Link>
                     </button>
-                    <h1 className='font-semibold text-xl text-gray-700'>{values.name}</h1>
-                    <img className='mt-2 w-96 h-72 object-fill' src={values.image} alt={values.imageDesc} />
-                    <span className='font-thin mt-2 w-4/6'>{values.desc}</span>
+                    <h1 className='font-semibold sm:font-bold text-xl sm:text-2xl sm:mt-2 text-gray-700'>{values.name}</h1>
+                    <img className='mt-2 sm:mt-3 w-96 sm:w-9/12 h-72 sm:h-96 object-fill sm:object-cover rounded-lg' src={values.image} alt={values.imageDesc} />
+                    <em className='font-thin mt-2 w-4/6'>{values.desc}</em>
                     <p className='font-medium mt-4 mb-10 w-5/6'>{values.recipe}</p>
+
                 </div>
             )
         }
