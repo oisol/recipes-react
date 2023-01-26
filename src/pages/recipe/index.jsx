@@ -12,12 +12,14 @@ const Recipe = () => {
     const datas = data.map(values => {
         if (values.id === urlId[3]) {
             return (
-                <div key={values.id}>
-                    <h4>{values.category}</h4>
-                    <h1>{values.name}</h1>
-                    <img src={values.image} alt={values.imageDesc} />
-                    <span>{values.desc}</span>
-                    <p>{values.recipe}</p>
+                <div key={values.id} className="flex flex-col items-center mt-3">
+                    <button className='font-extrabold text-orange-400 hover:text-orange-700'>
+                        <Link to={`/${values.category}`}>{values.category}</Link>
+                    </button>
+                    <h1 className='font-semibold text-xl text-gray-700'>{values.name}</h1>
+                    <img className='mt-2 w-96 h-72 object-fill' src={values.image} alt={values.imageDesc} />
+                    <span className='font-thin mt-2 w-4/6'>{values.desc}</span>
+                    <p className='font-medium mt-4 mb-10 w-5/6'>{values.recipe}</p>
                 </div>
             )
         }
@@ -54,5 +56,9 @@ const Recipe = () => {
         </div>
     )
 };
+
+const style = {
+    mainContent: ``,
+}
 
 export default Recipe;
