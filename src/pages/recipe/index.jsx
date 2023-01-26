@@ -51,7 +51,8 @@ const Recipe = () => {
               :
               <div className="flex flex-col items-center">
                   <h1 className='sm:text-5xl text-2xl sm:cursor-default'>404</h1>
-                  <button className='sm:text-xl text-base sm:mt-4 mt-1 hover:text-blue-600'><Link to='/'>Voltar para início</Link></button>
+                  <p className="sm:mt-2 mt-1">:( Nenhuma receita por aqui.</p>
+                  <button className='sm:text-xl text-base sm:mt-4 mt-1 hover:text-blue-600 font-semibold'><Link to='/'>Voltar para início</Link></button>
               </div>
             }
             <Footer/>
