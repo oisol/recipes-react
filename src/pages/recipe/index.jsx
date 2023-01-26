@@ -42,19 +42,19 @@ const Recipe = () => {
 
     return (
         
-        <div>
-            <Header />
+        <div className="flex flex-col justify-between h-screen">
+            <Header/>
             {
               notFound.includes(true)
               ?
               datas
               :
-              <div>
-                  <h1>404</h1>
-                  <button><Link to='/'>Voltar para início</Link></button>
+              <div className="flex flex-col items-center">
+                  <h1 className='sm:text-5xl text-2xl sm:cursor-default'>404</h1>
+                  <button className='sm:text-xl text-base sm:mt-4 mt-1 hover:text-blue-600'><Link to='/'>Voltar para início</Link></button>
               </div>
             }
-            <Footer />
+            <Footer/>
         </div>
     )
 };
