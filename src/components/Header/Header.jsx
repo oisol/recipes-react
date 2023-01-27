@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import logo from '../../assets/imgs/cooking-logo.svg';
 
 const Header = () => {
+
     return (
         <header className="flex justify-between bg-gray-200 h-28 items-center px-5 sm:pt-6">
             <div className='flex items-baseline'>
@@ -13,11 +14,9 @@ const Header = () => {
                     <Link to="/">Home</Link>
                 </a>
                 <a href="/contato" className={style.navs}>
-                    Sobre
-                </a>
-                <a href="/sobre" className={style.navs}>
                     Contato
                 </a>
+
                 {
                 window.location.href === "http://127.0.0.1:5173/" || window.location.href === "http://127.0.0.1:5173/#recipes"
                 ?

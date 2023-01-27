@@ -6,7 +6,7 @@ const Contact = () => {
         <div>
             <Header />
             <div>
-
+                
             </div>
             <Footer />
         </div>

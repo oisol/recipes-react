@@ -32,17 +32,17 @@ const Footer = () => {
                     <p className="text-base text-gray-900 sm:font-medium font-semibold ">Links Rápidos</p>
                     <ul className="pl-4">
                         <li>
-                            <a className="hover:text-orange-400 font-medium" href="#">
+                            <a className="hover:text-orange-400 font-medium" href="/">
                                 Home
                             </a>
                         </li>
                         <li>
-                            <a className="hover:text-orange-400 font-medium" href="#">
+                            <a className="hover:text-orange-400 font-medium" href="/contato">
                                 Contato
                             </a>
                         </li>
                         <li>
-                            <a className="hover:text-orange-400 font-medium" href="#">
+                            <a className="hover:text-orange-400 font-medium" href="/#recipes">
                                 Receitas
                             </a>
                         </li>
