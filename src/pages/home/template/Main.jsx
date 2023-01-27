@@ -8,7 +8,7 @@ const Main = () => {
 
     // Filtrar Cards de Acordo com a categoria 
     const cardsFiltered = data.map(values => {
-        if (values.category == search || search == "all") {
+        if (values.category == search || search == "all" || values.name.toLowerCase().includes(search)) {
             return (
                 <Card
                     key={values.id}
@@ -32,6 +32,10 @@ const Main = () => {
 
                 <h2 className='text-orange-400 font-semibold text-base'>Receitas</h2>
                 <p className='text-gray-800 font-bold text-xl'>Explore Nossas Receitas</p>
+
+                <form>
+                    <input type="text" name="recipe_search" id="textSearch" onChange={(e) => setSearch((e.target.value).toLowerCase())}/>
+                </form>
 
                 <nav className='flex sm:flex-row sm:gap-3 sm:mt-4 gap-2 flex-wrap'>
                     <label>
