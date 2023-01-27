@@ -33,8 +33,11 @@ const Main = () => {
                 <h2 className='text-orange-400 font-semibold text-base'>Receitas</h2>
                 <p className='text-gray-800 font-bold text-xl'>Explore Nossas Receitas</p>
 
-                <form>
-                    <input type="text" name="recipe_search" id="textSearch" onChange={(e) => setSearch((e.target.value).toLowerCase())}/>
+                <form className='flex gap-2 items-center'>
+                    <input className='h-8 w-16 focus:w-44 rounded-lg pl-3 focus:bg-gray-200 border-2 border-gray-200 outline-none' type="text" name="recipe_search" id="textSearch" onChange={(e) => setSearch((e.target.value).toLowerCase())}/>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-orange-400">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
                 </form>
 
                 <nav className='flex sm:flex-row sm:gap-3 sm:mt-4 gap-2 flex-wrap'>
@@ -66,7 +69,9 @@ const Main = () => {
             </div>
 
             <div className='flex flex-wrap gap-4 xl:justify-start xl:ml-20 my-9 justify-center items-center '>
-                {cardsFiltered}
+                {
+                cardsFiltered
+                }
             </div>
             
         </main>
