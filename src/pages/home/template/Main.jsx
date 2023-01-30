@@ -8,7 +8,7 @@ const Main = () => {
 
     // Filtrar Cards de Acordo com a categoria 
     const cardsFiltered = data.map(values => {
-        if (values.category == search || search == "all" || values.name.toLowerCase().includes(search)) {
+        if (values.category == search || search == "all" || values.name.toLowerCase().replace('-', ' ').trim().includes(search)) {
             return (
                 <Card
                     key={values.id}
