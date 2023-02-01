@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Zoom from 'react-medium-image-zoom'
 import bg_img from '../../../assets/imgs/food-frame.png'
 
@@ -16,7 +17,7 @@ const Article = () => {
                     cupiditate esse ad doloremque molestiae delectus quasi nemo velit, natus facere mollitia quam.
                     Provident quam officiis aliquam harum, numquam dolor tenetur, facilis inventore, ad recusandae repellat non illum accus.
                 </p>
-                <button className={style.buttom}>Leia mais</button>
+                <button className={style.buttom}><Link to='/artigo'>Leia mais</Link></button>
             </div>
 
         </article>

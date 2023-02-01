@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import data from "../../data";
 
 import Footer from "../../components/Footer/Footer";
@@ -15,7 +14,7 @@ const Recipe = () => {
                 <div key={values.id} className="flex flex-col items-center mt-3">
 
                     <button className='text-base sm:text-lg font-bold sm:font-extrabold text-orange-400 hover:text-orange-700'>
-                        <Link to={`/${values.category}`}>{values.category}</Link>
+                        {values.category}
                     </button>
                     <h1 className='font-semibold sm:font-bold text-xl sm:text-2xl sm:mt-2 text-gray-700'>{values.name}</h1>
                     <img className='mt-2 sm:mt-3 w-96 sm:w-9/12 h-72 sm:h-96 object-fill sm:object-cover rounded-lg' src={values.image} alt={values.imageDesc} />
