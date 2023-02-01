@@ -18,9 +18,11 @@ const Article = () => {
                     <p className="text-xl font-semibold">em um lugar que você pode confiar.</p>
                 </section>
 
-                <img className="h-96 w-72 object-cover" src={pic1} alt="" />
-                <img className="h-96 w-72 object-cover" src={pic2} alt="" />
-                <img className="h-96 w-72 object-cover" src={pic3} alt="" /> 
+                <picture className="flex gap-6 mt-5">
+                    <img className="h-96 w-72 object-cover rounded-md hover:scale-110" src={pic2} alt="" />
+                    <img className="h-96 w-72 object-cover rounded-md hover:scale-110" src={pic1} alt="" />
+                    <img className="h-96 w-72 object-cover rounded-md hover:scale-110" src={pic3} alt="" /> 
+                </picture>
                 {/* <p className="">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Non doloribus odit eligendi fugiat.
                     cupiditate esse ad doloremque molestiae delectus quasi nemo velit, natus facere mollitia quam.
