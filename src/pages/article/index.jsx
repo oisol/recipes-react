@@ -14,30 +14,42 @@ const Article = () => {
 
             <div className="flex flex-col mt-6 items-center justify-center">
 
-                <section>
+                <section className="select-none mb-2">
                     <span className="flex gap-2 text-2xl font-bold">Receitas que você ama {style.heartIcon}</span>
-                    <p className="text-xl font-semibold">em um lugar que você pode confiar.</p>
+                    <p className="text-xl font-semibold ">Em um lugar que você pode confiar</p>
                 </section>
-                
+
                 <picture className="flex gap-6 mt-5">
-                    <Link to="#">
-                        <img className="h-96 w-72 object-cover rounded-md hover:scale-110 duration-300" src={pic2} alt="" />
+                    <Link to="#" className="text-center">
+                        <img className="h-96 w-72 object-cover rounded-md hover:scale-110 duration-300" src={pic2} alt="Salmao em um prato branco" />
+                        <span className="font-medium font-sans hover:text-orange-500">Salmão</span>
                     </Link>
 
-                    <Link to="#">
-                        <img className="h-96 w-72 object-cover rounded-md hover:scale-110 duration-300" src={pic1} alt="" />
+                    <Link to="#" className="text-center">
+                        <img className="h-96 w-72 object-cover rounded-md hover:scale-110 duration-300" src={pic1} alt="Steak com legumes" />
+                        <span className="font-medium font-sans hover:text-orange-500">Steak</span>
                     </Link>
             
-                    <Link to="/4">
-                        <img className="h-96 w-72 object-cover rounded-md hover:scale-110 duration-300" src={pic3} alt="" />
+                    <Link to="/4" className="text-center">
+                        <img className="h-96 w-72 object-cover rounded-md hover:scale-110 duration-300" src={pic3} alt="Xicara branca com café" />
+                        <span className="font-medium font-sans hover:text-orange-500">Café</span>
                     </Link>
-                     
                 </picture>
-                <p className="">
+
+                <p className="w-5/6 mt-5 text-left">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Non doloribus odit eligendi fugiat.
-                    cupiditate esse ad doloremque molestiae delectus quasi nemo velit, natus facere mollitia quam.
+                    cupiditate esse ad doloremque molestiae delectus quasi nemo velit, <b>natus facere</b> mollitia quam.
                     Provident quam officiis aliquam harum, numquam dolor tenetur, facilis inventore, ad recusandae repellat non illum accus.
                 </p>
+
+                <div className="divide-slate-300 my-3">
+                    <p></p>
+                    <hr className="w-screen"/>
+                </div>
+
+                <section className="select-none mt-2">
+                    <span className="flex gap-2 text-2xl font-bold">Feito para descobrir</span>
+                </section>
             </div>
 
             <Footer/>
