@@ -31,7 +31,7 @@ const Main = () => {
             <div className='pt-4 flex flex-col justify-center items-center gap-1'>
 
                 <h2 className='text-orange-400 font-semibold text-base'>Receitas</h2>
-                <p className='text-gray-800 font-bold text-xl'>Explore Nossas Receitas</p>
+                <p className='text-gray-800 font-bold text-xl sm:px-0 px-3'>Explore Nossas Receitas</p>
 
                 <form className='flex gap-2 items-center'>
                     <input className='h-8 w-16 focus:w-44 rounded-lg pl-3 focus:bg-gray-200 border-2 border-gray-200 outline-none' type="text" name="recipe_search" id="textSearch" onChange={(e) => setSearch((e.target.value).toLowerCase())}/>
@@ -40,7 +40,7 @@ const Main = () => {
                     </svg>
                 </form>
 
-                <nav className='flex sm:flex-row sm:gap-3 sm:mt-4 gap-2 flex-wrap'>
+                <nav className='flex sm:flex-row sm:gap-3 sm:mt-4 gap-2 flex-wrap sm:px-0 px-3'>
                     <label>
                         <input className='peer sr-only' defaultChecked type="radio" id="all" value="all" name="recipe_type" onChange={(e) => setSearch(e.target.value)}/>
                         <div className={style.categoryName}>Todos</div>
