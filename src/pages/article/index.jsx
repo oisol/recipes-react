@@ -25,20 +25,20 @@ const Article = () => {
                 </div>
 
                 {/* Carousel */}
-                <picture className="flex gap-6 mt-5">
+                <picture className="flex sm:flex-row flex-col md:gap-6 sm:gap-2 gap-3 mt-5 sm:px-3">
                     <Link to="#" className="text-center">
                         <img className="h-96 w-72 object-cover rounded-md hover:scale-110 duration-300" src={pic2} alt="Salmao em um prato branco" />
-                        <span className="font-medium font-sans hover:text-orange-500">Salmão</span>
+                        <span className="sm:font-medium font-semibold sm:text-base text-lg font-sans hover:text-orange-500">Salmão</span>
                     </Link>
 
                     <Link to="#" className="text-center">
                         <img className="h-96 w-72 object-cover rounded-md hover:scale-110 duration-300" src={pic1} alt="Steak com legumes" />
-                        <span className="font-medium font-sans hover:text-orange-500">Steak</span>
+                        <span className="sm:font-medium font-semibold sm:text-base text-lg font-sans hover:text-orange-500">Steak</span>
                     </Link>
             
                     <Link to="/4" className="text-center">
                         <img className="h-96 w-72 object-cover rounded-md hover:scale-110 duration-300" src={pic3} alt="Xicara branca com café" />
-                        <span className="font-medium font-sans hover:text-orange-500">Café</span>
+                        <span className="sm:font-medium font-semibold sm:text-base text-lg font-sans hover:text-orange-500">Café</span>
                     </Link>
                 </picture>
 
