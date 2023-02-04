@@ -27,18 +27,18 @@ const Article = () => {
 
                 {/* Carousel */}
                 <picture className="flex sm:flex-row flex-col md:gap-6 sm:gap-2 gap-3 mt-5 sm:px-3">
-                    <Link to="#" className="text-center">
-                        <img className="h-96 w-72 object-cover rounded-md hover:scale-110 duration-300" src={pic2} alt="Salmao em um prato branco" />
+                    <Link to="#" className="flex flex-col items-center">
+                        <img className="sm:h-96 h-80 sm:w-72 w-11/12 sm:px-0 px-3 object-cover rounded-md hover:scale-110 duration-300" src={pic2} alt="Salmao em um prato branco" />
                         <span className="sm:font-medium font-semibold sm:text-base text-lg font-sans hover:text-orange-500">Salmão</span>
                     </Link>
 
-                    <Link to="#" className="text-center">
-                        <img className="h-96 w-72 object-cover rounded-md hover:scale-110 duration-300" src={pic1} alt="Steak com legumes" />
+                    <Link to="#" className="flex flex-col items-center">
+                        <img className="sm:h-96 h-80 sm:w-72 w-11/12 sm:px-0 px-3 object-cover rounded-md hover:scale-110 duration-300" src={pic1} alt="Steak com legumes" />
                         <span className="sm:font-medium font-semibold sm:text-base text-lg font-sans hover:text-orange-500">Steak</span>
                     </Link>
             
-                    <Link to="/4" className="text-center">
-                        <img className="h-96 w-72 object-cover rounded-md hover:scale-110 duration-300" src={pic3} alt="Xicara branca com café" />
+                    <Link to="/4" className="flex flex-col items-center">
+                        <img className="sm:h-96 h-80 sm:w-72 w-11/12 sm:px-0 px-3 object-cover rounded-md hover:scale-110 duration-300" src={pic3} alt="Xicara branca com café" />
                         <span className="sm:font-medium font-semibold sm:text-base text-lg font-sans hover:text-orange-500">Café</span>
                     </Link>
                 </picture>
@@ -59,17 +59,17 @@ const Article = () => {
                 <span className="flex justify-center gap-2 sm:text-2xl text-xl font-bold">Feito para descobrir {style.mapIcon}</span>
                 
                 <div className="sm:w-5/6 w-11/12">
-                    <div className="flex sm:flex-row flex-col justify-center items-center sm:gap-16 gap-5 mt-6">
+                    <div className="flex sm:flex-row flex-col justify-center items-center md:gap-16 gap-5 mt-6">
                         <img className="h-44 sm:w-72 w-auto object-cover rounded-md" src={pic4} alt="" />
-                        <p className="sm:w-1/3 w-11/12 sm:h-44 h-auto text-left font-sans">{style.text}</p>
+                        <p className="md:w-1/3 sm:w-2/3 w-11/12 sm:h-44 h-auto overflow-y-scroll text-left">{style.text}</p>
                     </div>
-                    <div className="flex sm:flex-row-reverse flex-col justify-center items-center sm:gap-16 gap-5 mt-6">
+                    <div className="flex sm:flex-row-reverse flex-col justify-center items-center md:gap-16 gap-5 mt-12">
                         <img className="h-44 sm:w-72 w-auto object-cover rounded-md" src={pic6} alt="" />
-                        <p className="sm:w-1/3 w-11/12 sm:h-44 h-auto text-left font-sans">{style.text}</p>
+                        <p className="md:w-1/3 sm:w-2/3 w-11/12 sm:h-44 h-auto overflow-y-scroll text-left">{style.text}</p>
                     </div>
-                    <div className="flex sm:flex-row flex-col justify-center items-center sm:gap-16 gap-5 mt-6">
+                    <div className="flex sm:flex-row flex-col justify-center items-center md:gap-16 gap-5 mt-12">
                         <img className="h-44 sm:w-72 w-auto object-cover rounded-md" src={pic5} alt="" />
-                        <p className="sm:w-1/3 w-11/12 sm:h-44 h-auto text-left font-sans">{style.text}</p>
+                        <p className="md:w-1/3 sm:w-2/3 w-11/12 sm:h-44 h-auto overflow-y-scroll text-left">{style.text}</p>
                     </div>
                 </div>
 
