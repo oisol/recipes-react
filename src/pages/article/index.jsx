@@ -16,12 +16,13 @@ const Article = () => {
             <Header/>
             <div className="flex flex-col mt-4 ">
 
+            {/* Seção 1 */}
             <section className="flex flex-col items-center justify-center py-4">
 
                 {/* Titulo */}
                 <div className="select-none mb-2">
-                    <span className="flex gap-2 text-2xl font-bold">Receitas que você ama {style.heartIcon}</span>
-                    <p className="text-xl font-semibold ">Em um lugar que você pode confiar</p>
+                    <span className="flex justify-center gap-2 sm:text-2xl text-xl font-bold">Receitas que você ama {style.heartIcon}</span>
+                    <p className="sm:text-xl text-lg font-semibold">Em um lugar que você pode confiar</p>
                 </div>
 
                 {/* Carousel */}
@@ -51,24 +52,27 @@ const Article = () => {
 
             </section>
 
+            {/* Seção 2 */}
             <section className="flex flex-col items-center select-none mt-2 px-3 py-4 bg-slate-100">
+
                 {/* Titulo */}
-                <span className="flex justify-center gap-2 text-2xl font-bold">Feito para descobrir {style.mapIcon}</span>
+                <span className="flex justify-center gap-2 sm:text-2xl text-xl font-bold">Feito para descobrir {style.mapIcon}</span>
                 
-                <div className="w-5/6">
-                    <div className="flex justify-center items-center gap-16 mt-6">
-                        <img className="h-44 w-72 object-cover rounded-md" src={pic4} alt="" />
-                        <p className="w-1/3 h-44 overflow-clip text-left font-sans">{style.text}</p>
+                <div className="sm:w-5/6 w-11/12">
+                    <div className="flex sm:flex-row flex-col justify-center items-center sm:gap-16 gap-5 mt-6">
+                        <img className="h-44 sm:w-72 w-auto object-cover rounded-md" src={pic4} alt="" />
+                        <p className="sm:w-1/3 w-11/12 sm:h-44 h-auto text-left font-sans">{style.text}</p>
                     </div>
-                    <div className="flex flex-row-reverse justify-center items-center gap-16 mt-6">
-                        <img className="h-44 w-72 object-cover rounded-md" src={pic6} alt="" />
-                        <p className="w-1/3 h-44 overflow-clip text-left font-sans">{style.text}</p>
+                    <div className="flex sm:flex-row-reverse flex-col justify-center items-center sm:gap-16 gap-5 mt-6">
+                        <img className="h-44 sm:w-72 w-auto object-cover rounded-md" src={pic6} alt="" />
+                        <p className="sm:w-1/3 w-11/12 sm:h-44 h-auto text-left font-sans">{style.text}</p>
                     </div>
-                    <div className="flex justify-center items-center gap-16 mt-6">
-                        <img className="h-44 w-72 object-cover rounded-md" src={pic5} alt="" />
-                        <p className="w-1/3 h-44 overflow-clip text-left font-sans">{style.text}</p>
+                    <div className="flex sm:flex-row flex-col justify-center items-center sm:gap-16 gap-5 mt-6">
+                        <img className="h-44 sm:w-72 w-auto object-cover rounded-md" src={pic5} alt="" />
+                        <p className="sm:w-1/3 w-11/12 sm:h-44 h-auto text-left font-sans">{style.text}</p>
                     </div>
                 </div>
+
             </section>
 
             </div>
