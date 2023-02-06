@@ -75,6 +75,14 @@ const Article = () => {
 
             </section>
 
+            {/* Seção 3 */}
+            <section className="flex flex-col items-center gap-2 mt-5">
+                <p className="text-xl font-medium text-gray-800">Pronto para começar a cozinhar?</p>
+                <Link to='/#receitas'>
+                    <p className="text-lg text-orange-400 font-bold hover:text-orange-600">Clique aqui</p>
+                </Link>
+            </section>
+
             </div>
             <Footer/>
         </div>
