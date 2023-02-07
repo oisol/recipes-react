@@ -5,10 +5,14 @@ const Header = () => {
 
     return (
         <header className="flex justify-between bg-gray-200 h-28 items-center px-5 sm:pt-6">
-            <div className='flex items-baseline'>
-                <img src={logo} alt="Pessoa cozinhando" className='w-8'/>
-                <span className='pl-3 font-bold text-lg cursor-default'>Receitas Lhegais</span>
+
+            <div>
+                <Link to='/' className='flex items-baseline cursor-pointer'>
+                    <img src={logo} alt="Pessoa cozinhando" className='w-8'/>
+                    <span className='pl-3 font-bold text-lg'>Receitas Legais</span>
+                </Link>
             </div>
+
             <nav className="flex flex-col justify-evenly sm:w-2/4 sm:flex-row sm:items-center items-end">
                 <a href="#" className={style.navs}>
                     <Link to="/">Home</Link>

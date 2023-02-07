@@ -2,6 +2,7 @@
 import facebook from '../../assets/imgs/facebook.png'
 import instagram from '../../assets/imgs/instagram.png'
 import linkedin from '../../assets/imgs/linkedin.png'
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
 

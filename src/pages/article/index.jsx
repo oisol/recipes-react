@@ -27,12 +27,12 @@ const Article = () => {
 
                 {/* Carousel */}
                 <picture className="flex sm:flex-row flex-col md:gap-6 sm:gap-2 gap-3 mt-5 sm:px-3">
-                    <Link to="#" className="flex flex-col items-center">
+                    <Link to="/10" className="flex flex-col items-center">
                         <img className="sm:h-96 h-80 sm:w-72 w-11/12 sm:px-0 px-3 object-cover rounded-md hover:scale-110 duration-300" src={pic2} alt="Salmao em um prato branco" />
                         <span className="sm:font-medium font-semibold sm:text-base text-lg font-sans hover:text-orange-500">Salmão</span>
                     </Link>
 
-                    <Link to="#" className="flex flex-col items-center">
+                    <Link to="/11" className="flex flex-col items-center">
                         <img className="sm:h-96 h-80 sm:w-72 w-11/12 sm:px-0 px-3 object-cover rounded-md hover:scale-110 duration-300" src={pic1} alt="Steak com legumes" />
                         <span className="sm:font-medium font-semibold sm:text-base text-lg font-sans hover:text-orange-500">Steak</span>
                     </Link>

@@ -84,5 +84,23 @@ export default [
         imageDesc: "Butterbeer Topped with Whipped Cream",
         recipe: "In a mixing bowl, combine the heavy whipping cream, butterscotch syrup, powdered sugar, and salt. Beat until medium peaks form (the peak will flop over when the beater is turned upside down), about 1 to 2 minutes. Set aside. In the chilled pint glass, combine the butterscotch syrup and cream soda, stirring to combine. Spoon about 1 inch of the butterscotch whipped cream over the top of the soda. Enjoy!"
     },
+    {
+        id: '10',
+        category: 'dinner',
+        name: "Salmon Gravlax",
+        desc: "Make your own home-cured salmon gravlax with our recipe! 15-minute prep, 2-day cure in the fridge. It's a showstopper for a fancy brunch or dinner party.",
+        image: `https://www.simplyrecipes.com/thmb/bFIh0edfXD5S2M9qkrSSXVcOCdc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2016__11__2016-11-29-Gravlax-7-43e83874474f4905b733aa8db8fb1a30.jpg`,
+        imageDesc: "Salmon Gravlax on toast",
+        recipe: "Place the salmon flesh side up on a cutting board. With your fingertips, feel along the flesh to see if there are any fine pin bones. Use tweezers, a strawberry huller, or another pincher to gently pull them out. In a bowl, combine the salt, brown and granulated sugar, and fennel seeds. Mix well. Sprinkle some of the curing mixture down the middle of a 12-inch glass or ceramic baking dish and sprinkle some of the dill on top. Set one of the pieces of salmon, skin side down, on top of the salt mixture. Sprinkle half the remaining salt mixture and half of the remaining dill over the flesh of the fish. Press lightly so the mixture sticks."
+    },
+    {
+        id: '11',
+        category: 'dinner',
+        name: "Steak with Avocado",
+        desc: "Add a little Argentinian flair to pan-seared skirt steak with a simple avocado chimichurri sauce. The lean and beefy cut cooks in just minutes in a sizzling hot skillet. It’s a quick dinner that will take your taste buds on a South American adventure!",
+        image: `https://www.simplyrecipes.com/thmb/EBSxEbBalAMwe_NRtns04dGPm0w=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__08__Steak-Avacado-Chimichurri-LEAD-4-0d42f5f2392040b084fac3f3b6f3c586.jpg`,
+        imageDesc: "steak sliced across the grain and covered with avocado",
+        recipe: "Add the cilantro, parsley, garlic, salt, cumin, and red pepper flakes to a food processor. Pulse until the leaves are coarsely chopped, about 5 pulses. Add the red wine vinegar, pulse 5 times. Add the olive oil, pulse 5 times. The chimichurri sauce should be emulsified and the herbs coarsely chopped.Transfer the chimichurri sauce to a medium bowl. Cut the avocado into 1/2-inch dice. Add the avocado to the chimichurri and gently stir to combine. Cover and refrigerate until ready to use. If the skirt steak comes in a long strip, cut across the grain into 2 to 3 smaller pieces, about 5 to 7 inches in length. This will allow the steak to fit better in the pan. Thoroughly pat dry each steak with paper towels on each side. The surface should be very dry to help brown the surface of the meat. Generously season each side of the steaks with salt and pepper."
+    },
 
 ]
