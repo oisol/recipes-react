@@ -70,7 +70,7 @@ const Main = () => {
 
             <div className='flex flex-wrap gap-4 xl:justify-start xl:ml-20 my-9 justify-center items-center '>
                 {
-                cardsFiltered
+                    cardsFiltered
                 }
             </div>
             
