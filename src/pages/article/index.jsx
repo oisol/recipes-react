@@ -76,10 +76,10 @@ const Article = () => {
             </section>
 
             {/* Seção 3 */}
-            <section className="flex flex-col items-center gap-2 mt-5">
-                <p className="text-xl font-medium text-gray-800">Pronto para começar a cozinhar?</p>
-                <Link to='/#receitas'>
-                    <p className="text-lg text-orange-400 font-bold hover:text-orange-600">Clique aqui</p>
+            <section className="flex flex-col items-center gap-2 mt-5 sm:mb-1 mb-4">
+                <p className="sm:text-xl text-lg font-medium text-gray-800">Pronto para começar?</p>
+                <Link to='/#recipes'>
+                    <p className="sm:mt-2 mt-1 sm:text-lg text-base text-orange-400 font-bold hover:text-orange-600 bg-amber-100 hover:bg-amber-200 sm:p-3 p-2 rounded-full shadow-sm hover:shadow-md">Clique aqui</p>
                 </Link>
             </section>
 
