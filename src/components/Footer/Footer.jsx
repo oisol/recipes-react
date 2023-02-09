@@ -86,7 +86,7 @@ const Footer = () => {
 const style = {
     mainDiv: 'flex lg:flex-row flex-col sm:mt-12 h-auto',
     // Newsletter
-    newsMain: 'bg-white lg:w-1/3 w-full lg:h-44 h-36 pl-5 pb-6 flex flex-col lg:justify-start lg:items-start items-center justify-center',
+    newsMain: 'bg-white lg:w-1/3 w-full h-auto pl-5 pb-6 flex flex-col lg:justify-start lg:items-start items-center justify-center',
     newsTitle: 'text-2xl font-semibold',
     newsSubTitle: 'text-base font-medium',
     newsForm: 'flex justify-start flex-wrap pt-4',

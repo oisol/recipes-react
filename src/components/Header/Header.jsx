@@ -4,27 +4,29 @@ import logo from '../../assets/imgs/cooking-logo.svg';
 const Header = () => {
 
     return (
-        <header className="flex justify-between bg-gray-200 h-28 items-center px-5 sm:pt-6">
-
+        <header className={style.headerMain}>
+            {/* Logo */}
             <div>
-                <Link to='/' className='flex items-baseline cursor-pointer'>
-                    <img src={logo} alt="Pessoa cozinhando" className='w-8'/>
-                    <span className='pl-3 font-bold text-lg'>Receitas Legais</span>
+                <Link to='/' className={style.logoLink} >
+                    <img className={style.logoImg} src={logo} alt="Pessoa cozinhando" />
+                    <span className={style.logoTitle} >Receitas Legais</span>
                 </Link>
             </div>
 
-            <nav className="flex flex-col justify-evenly sm:w-2/4 sm:flex-row sm:items-center items-end">
-                <a href="#" className={style.navs}>
+            <nav className={style.navMain}>
+
+                <a href="#" className={style.navItem}>
                     <Link to="/">Home</Link>
                 </a>
-                <a href="/contato" className={style.navs}>
+
+                <a href="/contato" className={style.navItem}>
                     Contato
                 </a>
 
                 {
                 window.location.href === "http://127.0.0.1:5173/" || window.location.href === "http://127.0.0.1:5173/#recipes"
                 ?
-                <a href="/#recipes" className={style.navsAlt}>
+                <a href="/#recipes" className={style.navsItemAlt}>
                     Receitas
                 </a>
                 :
@@ -37,8 +39,15 @@ const Header = () => {
 };
 
 const style = {
-    navs: `font-semibold hover:text-orange-700 hover:underline`,
-    navsAlt: `font-semibold sm:bg-orange-400 rounded-full hover:text-orange-700 hover:underline sm:text-white sm:w-20 sm:h-6 sm:text-center sm:hover:text-orange-400 sm:hover:bg-white`,
+    headerMain: 'flex justify-between bg-gray-200 h-28 items-center px-5 sm:pt-6',
+    // Logo
+    logoLink: 'flex items-baseline cursor-pointer',
+    logoImg: 'w-8',
+    logoTitle: 'pl-3 font-bold text-lg',
+    // Navigation
+    navMain: 'flex flex-col justify-evenly sm:w-2/4 sm:flex-row sm:items-center items-end',
+    navItem: `font-semibold hover:text-orange-700 hover:underline`,
+    navsItemAlt: `font-semibold sm:bg-orange-400 rounded-full hover:text-orange-700 hover:underline sm:text-white sm:w-20 sm:h-6 sm:text-center sm:hover:text-orange-400 sm:hover:bg-white`,
 }
 
 export default Header;
