@@ -86,26 +86,26 @@ const Footer = () => {
 const style = {
     mainDiv: 'flex lg:flex-row flex-col sm:mt-12 h-auto',
     // Newsletter
-    newsMain: 'bg-white lg:w-1/3 w-full h-auto pl-5 pb-6 flex flex-col lg:justify-start lg:items-start items-center justify-center',
-    newsTitle: 'text-2xl font-semibold',
-    newsSubTitle: 'text-base font-medium',
-    newsForm: 'flex justify-start flex-wrap pt-4',
-    newsFormInpt: 'h-8 w-60 rounded-l-lg pl-3 focus:bg-gray-200 border-2 border-gray-200 outline-none',
-    newsFormBtn: 'bg-orange-400 hover:bg-white rounded-r-lg w-20 text-white hover:text-orange-400 hover:border-2 hover:border-orange-400 font-semibold',
+        newsMain: 'bg-white lg:w-1/3 w-full h-auto pl-5 pb-6 flex flex-col lg:justify-start lg:items-start items-center justify-center',
+        newsTitle: 'text-2xl font-semibold',
+        newsSubTitle: 'text-base font-medium',
+        newsForm: 'flex justify-start flex-wrap pt-4',
+        newsFormInpt: 'h-8 w-60 rounded-l-lg pl-3 focus:bg-gray-200 border-2 border-gray-200 outline-none',
+        newsFormBtn: 'bg-orange-400 hover:bg-white rounded-r-lg w-20 text-white hover:text-orange-400 hover:border-2 hover:border-orange-400 font-semibold',
     // Navigation Menu
-    footerNav: 'lg:w-2/3 w-full lg:h-44 h-48 flex flex-row justify-around flex-wrap',
+        footerNav: 'lg:w-2/3 w-full lg:h-44 h-48 flex flex-row justify-around flex-wrap',
     // Quick Links
-    linksTitle: 'text-base text-gray-900 sm:font-medium font-semibold ',
-    linksList: 'pl-4',
-    linksItem: 'hover:text-orange-400 font-medium',
+        linksTitle: 'text-base text-gray-900 sm:font-medium font-semibold ',
+        linksList: 'pl-4',
+        linksItem: 'hover:text-orange-400 font-medium',
     // About
-    aboutMain: 'flex flex-col items-center w-1/3 break-all',
-    aboutTitle: 'text-base text-gray-900 sm:font-medium font-semibold',
-    aboutText: 'sm:overflow-visible overflow-y-scroll h-36',
+        aboutMain: 'flex flex-col items-center w-1/3 break-all',
+        aboutTitle: 'text-base text-gray-900 sm:font-medium font-semibold',
+        aboutText: 'sm:overflow-visible overflow-y-scroll h-36',
     // Social Media
-    socialMain: 'flex flex-col items-center',
-    socialTitle: 'text-base text-gray-900 sm:font-medium font-semibold',
-    socialIcon: 'w-9 mt-1'
+        socialMain: 'flex flex-col items-center',
+        socialTitle: 'text-base text-gray-900 sm:font-medium font-semibold',
+        socialIcon: 'w-9 mt-1'
 };
 
 export default Footer;
