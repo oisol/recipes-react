@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import CommentCard from './CommentCard'
-import commentsData from './testimonalData'
+import { useState } from 'react';
+import CommentCard from './CommentCard';
+import commentsData from './testimonalData';
 
 const Testimonal = () => {
 
@@ -45,15 +45,21 @@ const Testimonal = () => {
     })
 
     return (
-        <div className="flex flex-col items-center sm:gap-1 gap-2 mt-5 bg-white">
-            <h2 className='text-orange-400 font-semibold text-base'>Depoimentos</h2>
-            <p className='text-gray-900 font-bold text-xl'>Quadro de avaliações</p>
+        <div className={style.mainDiv}>
+            <h2 className={style.title}>Depoimentos</h2>
+            <p className={style.subTitle}>Quadro de avaliações</p>
 
             <div>
                 {commentsCard[count]}
             </div>
         </div>
     )
-}
+};
 
-export default Testimonal
+const style = {
+    mainDiv: 'flex flex-col items-center sm:gap-1 gap-2 mt-5 bg-white',
+    title: 'text-orange-400 font-semibold text-base',
+    subTitle: 'text-gray-900 font-bold text-xl',
+};
+
+export default Testimonal;
