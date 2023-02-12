@@ -1,14 +1,15 @@
 // Icons
-import facebook from '../../assets/imgs/facebook.png'
-import instagram from '../../assets/imgs/instagram.png'
-import linkedin from '../../assets/imgs/linkedin.png'
+import facebook from '../../assets/imgs/facebook.png';
+import instagram from '../../assets/imgs/instagram.png';
+import linkedin from '../../assets/imgs/linkedin.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
 
     // Impedir que o form dê submit
     const handleSubmit  = event => {
         event.preventDefault();
-    }
+    };
 
     return (
         <footer>
@@ -34,13 +35,13 @@ const Footer = () => {
                         <p className={style.linksTitle}>Links Rápidos</p>
                         <ul className={style.linksList}>
                             <li>
-                                <a className={style.linksItem} href="/">
-                                    Home
+                                <a className={style.linksItem} href="#">
+                                    <Link to="/">Home</Link>
                                 </a>
                             </li>
                             <li>
-                                <a className={style.linksItem} href="/contato">
-                                    Contato
+                                <a className={style.linksItem} href="#">
+                                    <Link to="/contato">Contato</Link>
                                 </a>
                             </li>
                             <li>

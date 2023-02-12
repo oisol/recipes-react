@@ -20,7 +20,7 @@ const Header = () => {
                 </a>
 
                 <a href="#" className={style.navItem}>
-                    <Link to="/">Contato</Link>
+                    <Link to="/contato">Contato</Link>
                 </a>
 
                 {
