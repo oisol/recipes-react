@@ -10,7 +10,7 @@ const Testimonal = () => {
     const nextComment = () => {
         if ((commentsData.length - 1)> count) {
             return (
-                setCount((count += 1)) & console.log(commentsData.length)
+                setCount((count += 1))
             )
         } else {
             return
