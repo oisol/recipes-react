@@ -19,12 +19,12 @@ const Header = () => {
                     <Link to="/">Home</Link>
                 </a>
 
-                <a href="/contato" className={style.navItem}>
-                    Contato
+                <a href="#" className={style.navItem}>
+                    <Link to="/">Contato</Link>
                 </a>
 
                 {
-                window.location.href === "http://127.0.0.1:5173/" || window.location.href === "http://127.0.0.1:5173/#recipes"
+                window.location.href === "https://example-receitas-legais.netlify.app/" || window.location.href === "https://example-receitas-legais.netlify.app/#recipes"
                 ?
                 <a href="/#recipes" className={style.navsItemAlt}>
                     Receitas
